@@ -1,0 +1,7 @@
+spring.application.name: document-explorer
+
+server.port: 8500
+#server.servlet.context-path: /docex -- this does not work with webflux
+spring.webflux.base-path: /docex
+
+base.directory: /home/nowindows/everything/steffy
